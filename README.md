@@ -1,7 +1,7 @@
 Google API
 ----------
 
-A Meteor library to interact with Google's API.
+A fork of a Meteor library to interact with Google's API (original here : https://atmospherejs.com/percolate/google-api)
 Combined extra commits from https://github.com/danopia/meteor-google-api/ to use different hosts for google apis e.g. spreadsheets.
 Pass in a 'host' key value pair in 'options' object while creating request.
 
