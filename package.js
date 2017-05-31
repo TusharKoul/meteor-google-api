@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'percolate:google-api',
+  name: 'tushark:google-api',
   summary: "A Meteor library to interact with Google's API",
-  version: '1.0.5',
-  git: 'https://github.com/percolatestudio/meteor-google-api'
+  version: '1.0.6',
+  git: 'https://github.com/tusharkoul/meteor-google-api'
 });
 
 Package.on_use(function (api, where) {
@@ -21,7 +21,7 @@ Package.on_use(function (api, where) {
 
 Package.on_test(function (api) {
   api.use([
-    'percolate:google-api',
+    'tushark:google-api',
     'tinytest',
     'http',
     'accounts-base',

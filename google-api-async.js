@@ -47,8 +47,9 @@ GoogleApi = {
       options.headers = options.headers || {};
       options.headers.Authorization = 'Bearer ' + user.services.google.accessToken;
 
-      HTTP.call(method, this._host + '/' + path, options, function(error, result) {
-        callback(error, result && result.data);
+      var host = options.host || this._host;
+      HTTP.call(method, host + '/' + path, options, function(error, result) {
+        callback(error, result && (result.data || result.content));
       });
     } else {
       callback(new Meteor.Error(403, "Auth token not found." +

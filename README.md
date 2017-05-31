@@ -2,13 +2,15 @@ Google API
 ----------
 
 A Meteor library to interact with Google's API.
+Combined extra commits from https://github.com/danopia/meteor-google-api/ to use different hosts for google apis e.g. spreadsheets.
+Pass in a 'host' key value pair in 'options' object while creating request.
 
 Works with accounts-google to automatically handle refresh/access token changes and give you a simple API to make calls.
 
 # Install
 
 ```
-meteor add percolate:google-api
+meteor add tushark:google-api
 ```
 
 # Usage
