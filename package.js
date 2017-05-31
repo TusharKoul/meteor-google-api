@@ -1,7 +1,7 @@
 Package.describe({
   name: 'tushark:google-api',
   summary: "A Meteor library to interact with Google's API",
-  version: '1.0.6',
+  version: '1.0.7',
   git: 'https://github.com/tusharkoul/meteor-google-api'
 });
 
